@@ -16,9 +16,6 @@ const Quill = require('quill');
 @Component({
   selector: 'quill-editor',
   template: `<div class="quill-editor"></div>`,
-  styleUrls: [
-    './quillEditor.component.css'
-  ],
   styles: [
     require('quill/dist/quill.core.css'),
     require('quill/dist/quill.snow.css'),
